@@ -1,5 +1,7 @@
-from util import rename
+import util
 
 def use_rename():
-    after_rename = rename("name")
+    after_rename = util.rename("name")
     return after_rename
+
+print(use_rename())
